@@ -9,3 +9,4 @@ resource "aws_instance" "my_ec2_instance" {
   tags = {
     Name = "MyEC2Instance"
   }
+}
