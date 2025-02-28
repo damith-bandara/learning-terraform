@@ -1,6 +1,6 @@
-resource "aws_instance" "web" {
-  ami           = data.aws_ami.app_ami.id
-  instance_type = "t3.nano"
+resource "aws_instance" "instance1" {
+  ami           = "ami-0b03299ddb99998e9"
+  instance_type = "t2.micro"
 
   tags = {
     Name = "HelloWorld"
